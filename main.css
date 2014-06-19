@@ -100,3 +100,35 @@
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+
+/* 11. Pagination */
+ol{
+	padding-left: 0;
+}
+
+ol > li {
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.pages > li > * {
+	text-decoration: none;
+	border-bottom: 2px solid red;
+	padding: 4px 7px;
+	color: red;
+	/*text-transform: 20px;*/
+}
+
+
+.pages > li:first-child a, li:last-child a{
+	border-bottom: none;	
+}
+
+.pages > li > span{
+	color: grey;
+	border-bottom: 2px solid grey;
+}
+
+/* Comment Stream*/
+
+
