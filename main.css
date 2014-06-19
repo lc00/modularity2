@@ -24,8 +24,79 @@
 }
 
 /* 7. Vertically Spaced */
-.block-50 img{
-	padding-top: 10%;
-	padding-bottom: 10%;
+.center-vertical-container{
+	/*width: 300px;*/
+	height: 300px;
+	display: table;
+}
 
+.center-vertical{
+	display: table-cell;
+	vertical-align: middle;
+/*	margin-left: auto;
+	margin-right: auto;*/
+
+}
+/*  8. Horizontal List  */
+.horizontal{
+	padding:0;
+}
+
+.horizontal > li{
+	display: inline;
+}
+
+/* 9. Buttons */
+
+.button{
+	background-color: pink;
+	display: inline-block;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 40px;
+	border: 0;
+	margin: 0;
+}
+
+.big{
+	/*width: 100%;*/
+	/*height: 20px;*/
+	padding: 20px 55px;
+}
+
+.medium{
+	/*height: 14px;*/
+	padding: 10px 40px;
+	/*border-radius: 0;*/
+}
+
+.small{
+	/*height: 10px;*/
+	padding: 5px 8px;
+	font-size: 0.8em;
+}
+
+/* 10. Navigation */
+.nav-list > li{
+	display: inline-block;
+	float: left;
+
+}
+.nav-list {
+	padding-left: 0;
+}
+
+.nav-list a{
+	border-radius: 0;
+}
+
+.nav-list > li:first-child a{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.nav-list > li:last-child a{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
