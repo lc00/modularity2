@@ -130,5 +130,28 @@ ol > li {
 }
 
 /* Comment Stream*/
+/*.commentStream > div{
+	float: left;
+	overflow: hidden;
+}*/
+.commentStream{
+	padding-bottom: 5px;	
+	overflow: hidden;
 
+}
+.avatar{
+	float: left;
+	/*padding-bottom: 5px;*/
+	/*margin-bottom: 20px;*/
+	/*overflow: hidden;*/
+	/*clear: left;*/
+}
+
+.comment{
+	overflow: hidden;
+}
+
+.last {
+	/*float: right;*/
+}
 
